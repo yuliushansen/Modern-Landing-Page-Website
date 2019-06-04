@@ -104,3 +104,91 @@ header h1 {
     width: 40%;
     margin:  2em 0 0 0;
 }
+
+/* Team */
+.team { 
+    text-align: center;
+    margin: 10em 0 3em 0;
+    padding: 0 5%;
+    background-image: url(images/background_team.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.team h1{
+    width: 50%;
+    margin: 0 auto 30px auto;
+
+}
+.members{
+    display: flex;
+    justify-content: center;
+}
+.person{
+    margin: 0 30px;
+    color: #202427;
+}
+.person h3{
+    margin-bottom: 5px;
+}
+
+/* about */
+.about{
+    padding:  0 5%;
+    background-image: url(images/background_about.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 80%;
+    height: 900px;
+    min-height: 900px;
+}
+.about h1{
+    margin-bottom: 30px;
+    padding-top: 300px;
+
+}
+.icons img {
+    margin-right: 30px;
+}
+.about h1, .icons{
+    margin-left: 50%;
+}
+
+/* call to action */
+
+.callToAction{
+    text-align: center;
+    padding: 20em 5% 20em 5%;
+    background-image: url(images/background_calltoaction.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+}
+
+.callToAction h1, .callToAction a {
+    display: inline-block;
+    margin: 0 60px;
+    vertical-align: center;
+}
+
+/* footer */
+footer{
+    padding: 0 5%;
+    margin-bottom: 40px;
+    color: #2B9DFF;
+}
+footer p, .footerPages {
+    display: inline-block;
+}
+
+.footerPages{
+    float: right;
+}
+.footerPages a{
+    text-decoration: none;
+    font-weight: 100;
+    color: #2B9DFF;
+    margin-left: 30px;
+}
+
+/* responsive */
